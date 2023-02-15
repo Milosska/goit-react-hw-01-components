@@ -1,0 +1,28 @@
+.statistics {
+  width: 50%;
+  margin: 0 auto 20px;
+  border: 1px solid var(--grey);
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.stat-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.item {
+  text-align: center;
+}
+
+.label {
+  display: block;
+}
+
+.percentage {
+  display: block;
+}
