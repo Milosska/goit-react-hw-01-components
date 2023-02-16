@@ -1,0 +1,18 @@
+.transaction-history {
+  width: 50%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.tableHead {
+  text-transform: uppercase;
+  background-color: var(--aqua);
+  color: white;
+}
+
+.tableRow {
+}
+
+.tableData {
+  outline: 1px solid var(--bg-grey);
+}
