@@ -1,13 +1,13 @@
-@import-normalize; /* bring in normalize.css styles */
+/* @import-normalize; bring in normalize.css styles */
 
-:root {
+/* :root {
   --black: #000000;
   --grey: #777777;
   --bg-grey: #e7f5f9;
   --aqua: #25b0d3;
-}
+} */
 
-body {
+/* body {
   color: var(--black);
   font-weight: normal;
   font-size: 18px;
@@ -54,4 +54,4 @@ button {
 
 button:focus {
   outline: none;
-}
+} */

@@ -1,3 +1,4 @@
+import { GlobalStyles } from './GlobalStyles';
 import user from '../data/user';
 import data from '../data/data';
 import friends from '../data/friends';
@@ -10,6 +11,7 @@ import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 export const App = () => {
   return (
     <div>
+      <GlobalStyles />
       <Profile user={user} />
       <Statistics stats={data} />
       <FriendList friends={friends} />

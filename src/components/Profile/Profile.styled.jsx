@@ -1,56 +1,67 @@
-.profile {
+import styled from '@emotion/styled';
+
+export const Container = styled.div`
   width: 50%;
   margin: 0 auto 20px;
   border: 1px solid var(--grey);
-}
+`;
 
-.description {
+export const UserThumb = styled.div`
   text-align: center;
-}
+`;
 
-.avatar {
+export const Avatar = styled.img`
   width: 300px;
   height: 300px;
   border-radius: 50%;
   margin: 20px auto;
-}
+`;
 
-.name {
+export const UserName = styled.p`
   margin-bottom: 10px;
   font-size: 32px;
   font-weight: bold;
-}
+`;
 
-.tag {
+export const UserTag = styled.p`
   margin-bottom: 10px;
   color: var(--grey);
   font-size: 22px;
-}
+`;
 
-.location {
+export const Location = styled.p`
   margin-bottom: 20px;
   color: var(--grey);
   font-size: 22px;
-}
+`;
 
-.stats {
+export const StatList = styled.ul`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 20px 0;
   border-top: 1px solid var(--grey);
   background-color: var(--bg-grey);
   text-align: center;
-}
+`;
 
-.label {
+export const StatListItem = styled.li`
+  width: 100%;
+  height: 100%;
+  padding: 20px 0;
+
+  :not(:last-child) {
+    border-right: 1px solid var(--grey);
+  }
+`;
+
+export const StatLabel = styled.span`
   display: block;
   margin-bottom: 5px;
   color: var(--grey);
-}
+`;
 
-.quantity {
+export const StatValue = styled.span`
   display: block;
   font-size: 22px;
   font-weight: bold;
-}
+`;
